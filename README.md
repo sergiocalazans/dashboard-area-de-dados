@@ -6,7 +6,13 @@ Este é um projeto de um dashboard interativo construído com Streamlit para a a
 
 O dashboard apresenta uma análise detalhada sobre salários, oferecendo múltiplas visualizações e filtros para uma exploração aprofundada.
 
-### ✨ Funcionalidades
+## 🚀 Acessando o Dashboard
+
+Para explorar o dashboard interativo, clique no botão abaixo:
+
+[![Streamlit App](https://dashboard-salario-area-de-dados.streamlit.app/)]
+
+## ✨ Funcionalidades
 
 *   **Métricas Gerais:** Apresenta o salário médio, salário máximo, o número total de registros e o cargo mais frequente com base nos filtros aplicados.
 *   **Filtros Interativos:** Permite filtrar os dados por:
@@ -21,17 +27,31 @@ O dashboard apresenta uma análise detalhada sobre salários, oferecendo múltip
     *   **Salário Médio de Cientista de Dados por País:** Um mapa coroplético e um gráfico de barras que exibem a média salarial para a posição de Cientista de Dados em diferentes países.
 *   **Tabela de Dados:** Exibe o conjunto de dados detalhado e filtrado.
 
+## 📂 Estrutura dos Arquivos
 
-### Tecnologias utilizadas
+O projeto está organizado da seguinte forma:
+
+```
+.
+├── .gitignore         # Arquivo para ignorar arquivos do Git
+├── app.py             # Script principal da aplicação Streamlit
+├── dic.py             # Dicionário para tradução de siglas de países
+└── requirements.txt   # Lista de dependências Python do projeto
+```
+
+*   **`app.py`**: Contém todo o código para a interface do usuário, a lógica de filtragem e a criação dos gráficos do dashboard.
+*   **`dic.py`**: Armazena um dicionário Python que mapeia as siglas dos países para seus nomes completos em português.
+*   **`requirements.txt`**: Define as bibliotecas Python necessárias para que o projeto funcione corretamente. [2]
+*   **`.gitignore`**: Especifica arquivos e diretórios que não devem ser versionados pelo Git, como logs e ambientes virtuais.
+
+## 📈 Fonte dos Dados
+
+Os dados utilizados nesta aplicação são carregados a partir de um arquivo CSV hospedado no GitHub:
+`https://raw.githubusercontent.com/sergiocalazans/imersao_dados_com_python_alura_2025/refs/heads/main/dados-imersao-final.csv`
+
+## Tecnologias utilizadas
 
 *   Python 3.13.5
 *   Pandas
 *   Streamlit
 *   Plotly
-
-
-
-
-
-
-

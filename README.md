@@ -8,9 +8,9 @@ O dashboard apresenta uma análise detalhada sobre salários, oferecendo múltip
 
 ## 🚀 Acessando o Dashboard
 
-Para explorar o dashboard interativo, clique no botão abaixo:
+Você pode acessar e interagir com o dashboard através do seguinte link:
 
-[![Streamlit App](https://dashboard-salario-area-de-dados.streamlit.app/)]
+[Acessar o Dashboard de Análise de Salários](https://dashboard-salario-area-de-dados.streamlit.app/)
 
 ## ✨ Funcionalidades
 

@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 # --- Carregamento dos dados ---
-df = pd.read_csv("https://raw.githubusercontent.com/guilhermeonrails/data-jobs/refs/heads/main/salaries.csv")
+df = pd.read_csv("dados.csv")
 
 # --- Barra Lateral (Filtros) ---
 st.sidebar.header("🔍 Filtros")
